@@ -19,6 +19,7 @@ public class HomeController {
 
     @GetMapping("")
     public String mainPage(Model model){
+        int a;
         return "main";
     }
 
